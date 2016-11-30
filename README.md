@@ -5,4 +5,4 @@
 ![image](https://github.com/hbxjw119/wishwall/blob/master/sreenshot.png)
 
 
-[演示地址](www.xujimmy.com/wishwall/wish.html)
+[演示地址](http://www.xujimmy.com/wishwall/wish.html)
