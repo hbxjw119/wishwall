@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="//cdn.bootcss.com/materialize/0.97.8/css/materialize.min.css" rel="stylesheet">
+  <link href="css/mystyle.css" rel="stylesheet">
+  <script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+  <script src="//cdn.bootcss.com/materialize/0.97.8/js/materialize.min.js"></script>
+  <script src="js/card.js"></script>
+</head>
+<body>
+ <div class="container">
+   <div class="wishwall">
+    <div class="mycard">
+      <div class="card light-blue lighten-2">
+        <div class="card-content white-text">
+          <span class="card-title">2016-11-28 12:12:30</span>
+          <div class="divider"></div>
+          <p>在光明中高举，在死的阴影里把它收起。
+            和你的星星一同放进夜的宝盒，
+            早晨，
+            让它在礼拜声中开放的鲜花丛里找到它自己. .</p>
+          </div>   
+        </div>
+      </div>
+
+
+      <div class="mycard">
+        <div class="card pink lighten-2">
+          <div class="card-content white-text">
+            <span class="card-title">2016-11-28 15:44:20</span>
+            <div class="divider"></div>
+            <p>时间是变化的财富。时钟模仿它，却只有变化而无财富.</p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="fixed-action-btn horizontal" id="add_wish" data-target="modal1"><a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+      </div>
+      <div id="modal1" class="modal">
+        <div class="modal-content">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s12">
+                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                <label for="textarea1" id="user_wish">大声说出你的愿望吧~</label>
+              </div>
+            </div>
+          </form>
+
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat" id="submit">提交</a>
+        </div>
+      </div>
+    </body>
+    </html>

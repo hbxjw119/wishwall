@@ -1,0 +1,24 @@
+body{
+	font-family: Microsoft YaHei;
+}
+.container{
+	width: 100%;
+	background-color: #f1f8e9;
+	max-width: 3000px;
+}
+.wishwall{
+	width: 100%;
+	height: 936px;	
+}
+
+.mycard
+{
+	width: 300px;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.card .card-title{
+	font-size: 17px;
+}
